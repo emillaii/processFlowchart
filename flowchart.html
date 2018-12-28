@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+    <link rel="stylesheet" href="css/jquery.flowchart.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    
+    <script src="js/jquery.panzoom.min.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
+    
+    <script src="js/jquery.flowchart.js"></script>
+    <script src="js/main.js"></script>
+    
+    <title>Flow chart</title>
+  </head>
+
+  <div class="flowchart-example"  style="margin-left: 2%">
+    <h2>Silicool Process Diagram</h2>
+    <button class="create_start">Start</button>
+    <button class="create_init_camera">Init Camera</button>
+    <button class="create_oc">OC</button>
+    <button class="create_aa">AA</button>
+    <button class="create_uv">UV</button>
+    <button class="create_disp">Dispense</button>
+    <button class="create_accept">Accept</button>
+    <button class="create_reject">Reject</button>
+    <div class="flowchart-example-container flowchart-container" id="example_7">
+      <svg class="flowchart-links-layer">
+      </svg>
+    </div>
+    <button class="delete_selected_button">Delete selected operator / link</button>
+    <button class="get_data">Get data</button>
+    <button class="set_data">Set data</button>
+    <input id="filename" type="text" placeholder="Please enter filename" />
+    <button for="filename">click</button><a id="download" download="" href=""></a>
+    <div id="operator_properties">
+      <label for="operator_title">Operator's title: </label><input type="text" id="operator_title">
+    </div>
+    <div id="aa_operator_properties">
+      <label for="aa_operator_title">Operator's title: </label><input type="text" id="aa_operator_title">
+    </div>
+    <button class="update_data">Update data</button>
+  <div>
+  <div>
+    <textarea id="flowchart_data"></textarea>
+  </div>
+</html>
