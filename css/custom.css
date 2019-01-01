@@ -47,7 +47,8 @@ h4 {
     margin-top: 10px;
 }
 
-#operator_properties, #link_properties, #aa_operator_properties {
+#operator_properties, #link_properties, #aa_operator_properties, #initial_tilt_properties,
+#oc_operator_properties {
   display: none;
   margin-top: 20px;
   margin-bottom: 20px;
